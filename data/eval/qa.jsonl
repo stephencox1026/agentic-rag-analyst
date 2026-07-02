@@ -1,0 +1,4 @@
+{"question": "What is the single strongest predictor of rebounds?", "expected_source": "rebound_model_notes.md", "ideal": "Last-10-game rebound average."}
+{"question": "How is expected value per $100 calculated?", "expected_source": "value_betting_notes.md", "ideal": "(model probability * profit) - ((1 - model probability) * stake)."}
+{"question": "What edge threshold flags a high-value bet?", "expected_source": "rebound_model_notes.md", "ideal": "A 15 percent or greater edge."}
+{"question": "What is the best leading indicator that an edge is real?", "expected_source": "value_betting_notes.md", "ideal": "Closing line value (CLV)."}
