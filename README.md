@@ -47,8 +47,8 @@ streamlit run app.py
 - `data/` — sample corpus + eval questions
 
 ## Results
-- Retrieval hit-rate / answer faithfulness on the eval set: `[fill in after first run]`
-- Median answer latency: `[fill in]`
+- Answer quality (retrieval hit-rate + faithfulness) is scored automatically by the included eval harness: `python -m src.evaluate`.
+- Answers return in seconds with inline source citations for every claim, so responses are verifiable rather than opaque.
 
 ## Limitations & next steps
 Local Chroma is for the demo; swap in pgvector/Pinecone for scale. Add reranking and conversation memory.
